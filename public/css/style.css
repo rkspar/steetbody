@@ -30,23 +30,23 @@ Description: Creative Responsive Wordpress Theme
  * 23.0 - Carousel
  * 24.0 - DH Slider
  * 25.0 - Shortcodes
- * 		25.1 - Animate Box
- * 		25.2 - Call to Action
- * 		25.3 - Separator
- * 		25.4 - Caroufredsel Slider
- * 		25.5 - Testimonial
- * 		25.6 - Client
- * 		25.7 - Counter
- * 		25.8 - Google Map
- * 		25.9 - Iconbox
- * 		25.10 - Piechart
- * 		25.11 - Pricing Table
- * 		25.12 - Timeline
- * 		25.13 - Team Member
- *		25.14 - Single Image
- * 		25.15 - Latestnews
- * 		25.16 - Embed
- * 		25.17 - Lists Ul
+ *    25.1 - Animate Box
+ *    25.2 - Call to Action
+ *    25.3 - Separator
+ *    25.4 - Caroufredsel Slider
+ *    25.5 - Testimonial
+ *    25.6 - Client
+ *    25.7 - Counter
+ *    25.8 - Google Map
+ *    25.9 - Iconbox
+ *    25.10 - Piechart
+ *    25.11 - Pricing Table
+ *    25.12 - Timeline
+ *    25.13 - Team Member
+ *    25.14 - Single Image
+ *    25.15 - Latestnews
+ *    25.16 - Embed
+ *    25.17 - Lists Ul
  * 26.0 - Header
  * 27.0 - Footer
  * 28.0 - Porfolio
@@ -288,9 +288,6 @@ fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 0.13793103448275862em;
   padding: 0.35em 0.625em 0.75em;
-}
-.tp-bgimg.defaultimg{
-background-size:100% 100%  !important ; 
 }
 legend {
   border: 0;
@@ -3364,7 +3361,7 @@ object {
 .box {
   position: relative;
 }
-@media (max-width: 767px) {
+@media (max-width: 1280px) {
   .box.box-custom-margin-padding {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -11599,23 +11596,23 @@ a[data-toggle="tooltip"]:hover {
 }
 /*--------------------------------------------------------------
 25.0 - Shortcodes
-	25.1 - Animate Box
-	25.2 - Call to Action
-	25.3 - Separator
-	25.4 - Caroufredsel Slider
-	25.5 - Testimonial
-	25.6 - Client
-	25.7 - Counter
-	25.8 - Google Map
-	25.9 - Iconbox
-	25.10 - Piechart
-	25.11 - Pricing Table
-	25.12 - Timeline
-	25.13 - Team Member
-	25.14 - Single Image
-	25.15 - Latestnews
-	25.16 - Embed
-	25.17 - Lists Ul
+  25.1 - Animate Box
+  25.2 - Call to Action
+  25.3 - Separator
+  25.4 - Caroufredsel Slider
+  25.5 - Testimonial
+  25.6 - Client
+  25.7 - Counter
+  25.8 - Google Map
+  25.9 - Iconbox
+  25.10 - Piechart
+  25.11 - Pricing Table
+  25.12 - Timeline
+  25.13 - Team Member
+  25.14 - Single Image
+  25.15 - Latestnews
+  25.16 - Embed
+  25.17 - Lists Ul
 
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -20659,4 +20656,10 @@ img.grayscale:hover {
 }
 .empty-space-90 {
   height: 90px;
+}
+
+@media(max-width:1200px){
+  .tp-bgimg.defaultimg{
+    background-size:100% 100% !important;
+  }
 }
