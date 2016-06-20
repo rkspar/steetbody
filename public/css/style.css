@@ -20668,3 +20668,8 @@ img.grayscale:hover {
     background-size:100% 100% !important;
   }
 }*/
+
+.tp-caption.theairslicetitle.sft.tp-resizeme.start > h2 > h3 > b > i{
+  font-size: 20px !important;
+
+}
