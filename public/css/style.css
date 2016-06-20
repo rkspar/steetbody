@@ -20663,7 +20663,7 @@ img.grayscale:hover {
     background-size:100% 100% !important;
   }
 }
-@media(max-height:1200px){
+@media(max-height:1000px){
   .tp-bgimg.defaultimg{
     background-size:100% 100% !important;
   }
