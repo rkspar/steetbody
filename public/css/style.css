@@ -15513,7 +15513,7 @@ a[data-toggle="tooltip"]:hover {
 }
 .single-portfolio .heading-container.heading-single .heading-background .heading-wrap {
   padding: 100px 0;
-  height: auto;
+  height: 400px;
 }
 .heading-background.bg-1 {
   background-image: url('../images/blr.png');
